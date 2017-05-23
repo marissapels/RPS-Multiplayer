@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<meta charset="UTF-8">
+
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+<body>
+	<h1>Rock, Paper, Scissors</h1>
+	<h2>Choose one to begin!</h2>
+	<form>
+		<label for="name-input">Enter your name!</label>
+		<input type="text" id="name-input">
+		<button type="submit" id="submit">Submit</button>
+	</form>
+
+	
+
+	<div class="player1">
+		<div class="list">
+			<h3 id="player1name">Player 1</h3>
+			<p class="button1" id="rock1" data-type="rock">Rock</p>
+			<p class="button1" id="paper1" data-type="paper">Paper</button></p>
+			<p class="button1" id="scissors1" data-type="scissors">Scissors</button></p>
+		</div>
+	</div>
+	<div class="status"></div>
+	<div class="player2">
+		<div class="list">
+			<h3 id="player2name">Player 2</h3>
+			<p class="button2" id="rock2" data-type="rock">Rock</p>
+			<p class="button2" id="paper2" data-type="paper">Paper</button></p>
+			<p class="button2" id="scissors2" data-type="scissors">Scissors</button></p>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/javascript/rps.js"></script>
+</body>
+</html>

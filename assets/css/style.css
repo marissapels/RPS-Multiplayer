@@ -1,0 +1,17 @@
+body {
+	margin: 0 auto;
+	text-align:center;
+}
+
+.list {
+	list-style-type: none;
+}
+
+.player1, .player2, .status{
+	border: 1px black solid;
+	display: inline-block;
+	margin:20px;
+	padding:20px;
+	width:250px;
+	height:200px;
+}
